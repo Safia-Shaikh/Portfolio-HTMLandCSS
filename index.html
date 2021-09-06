@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <h1>Safia Imtiaz Portfolio</h1>
+            <div class="navigationmenu">
+                <a href="#aboutme">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactform">Let's Connect</a>
+            </div>
+        </nav>
+        <section class='herosection'>
+            <img class="profileimage"
+             src="https://www.w3schools.com/howto/img_avatar2.png">
+            <div class="herosectiondetails">
+                <h1>Safia Imtiaz</h1>
+                <h3>Full-Stack Web Developer</h3>
+            </div>
+        </section>
+        <section class="aboutme" id="#aboutme">
+            <h1>What I Do...</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dicta assumenda magni totam consequatur blanditiis nostrum ad odit neque molestias nobis, necessitatibus nihil distinctio reprehenderit harum velit eveniet, est nam tempore sequi, quam reiciendis numquam fuga fugit! Eius dolorem eligendi, dicta beatae vitae architecto distinctio. Cum vitae maxime ducimus aliquam veniam ut id consectetur iste porro labore quod hic quam dignissimos, magni totam, accusantium harum reiciendis itaque repellendus mollitia placeat nesciunt! Quia in sint dolore rerum excepturi! Voluptates temporibus eligendi explicabo aliquam earum eum vitae amet assumenda est porro ea blanditiis vero error laborum, incidunt optio numquam iure impedit voluptas.</p>
+        </section>
+        <section class="skillsandprojects">
+            <div class="skills" id="#skills">
+                <h1 class="cardheading">Skills</h1>
+                <img src="html-5.png" title="html">
+                <img src="css.png" title="css">
+                <img src="js.png" title="js">
+                <img src="nodejs.png" title="nodejs">
+                <img src="react.png" title="react">
+                <img src="firebase.png" title="firebase">
+                <img src="php.png" title="php">
+                <img src="bootstrap.png" title="bootstrap">
+            </div>
+            <div  class="projects" id="#projects">
+            <h1 class="skillsandprojects">Projects</h1>
+            <div class="projectcontainer">
+                <img src="css.png">
+                <div class="projectdescription">
+                    <h4>Project Name</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, neque soluta eveniet nemo eaque deleniti deserunt reprehenderit distinctio quam ipsum.</p>
+                </div>
+            </div>
+            <div class="projectcontainer">
+                <img src="css.png">
+                <div class="projectdescription">
+                    <h4>Project Name</h4>
+                    <p>Some details of the project</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="contactform" id="#contactform">
+            <h1>Let's Connect</h1>
+            <div class="formgroup">
+                <label for="name">Enter Full Name</label><br/>
+                <input type="text" id="name" placeholder="Full Name"/>
+            </div>
+            <div class="formgroup">
+                <label for="email">Email</label><br/>
+                <input type="email" id="email" placeholder="Email"/>
+            </div>
+            <div class="formgroup">
+                <label for="message">Message</label><br/>
+                <textarea placeholder="Send Some Message!" id="message" name="overview" rows="4" cols="50"></textarea>
+            </div>
+            <button class="submittion" onclick={submit()}>Connect</button>
+        </section>
+    </main>
+</body>
+</html>
